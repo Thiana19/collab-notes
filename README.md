@@ -283,4 +283,4 @@ CREATE TABLE notes (
 
 ## 📄 License
 
-Made by Thiana
+Made by THIANA
