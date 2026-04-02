@@ -281,30 +281,6 @@ CREATE TABLE notes (
 
 ---
 
-## 🌐 Deployment
-
-This app is deployed on a Linux server using PM2 for process management.
-
-```bash
-# Install PM2
-npm install -g pm2
-
-# Start the server
-pm2 start index.js --name collab-notes
-pm2 save
-pm2 startup
-```
-
-The React client is built and served as static files directly by Express:
-
-```bash
-cd client
-npm run build
-# dist/ is served by the Express server
-```
-
----
-
 ## 📄 License
 
-MIT
+Made by Thiana
